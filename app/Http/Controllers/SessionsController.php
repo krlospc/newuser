@@ -27,7 +27,7 @@ class SessionsController extends Controller
             return redirect('dashboard')->with(['success'=>'You are logged in.']);
         }else{
             // return redirect()->intended('/');
-            return back()->withErrors(['email'=>'Email or password invalid.']);
+            return redirect()->back()->withErrors(['username'=>'Usuario o password, alguno es invalido .']);
         }
         
         return view('welcome');
