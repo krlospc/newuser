@@ -6,6 +6,10 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+    public function home()
+    {
+        return redirect('dashboard');
+    }
     /**
      * Display a listing of the resource.
      */
