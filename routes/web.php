@@ -11,7 +11,7 @@ use App\Http\Controllers\HomeController;
 
 Route::group(['middleware' => 'guest'], function(){
     Route::get('/', [AuthController::class, 'login'])->name('login');
-    Route::post('/login', [AuthController::class, 'loginPost'])->name('login');
+    Route::post('/login', [AuthController::class, 'loginPost'])->name('login.post');
 });
 
 Route::group(['middleware' => 'auth'], function(){
