@@ -82,7 +82,7 @@
               </g>
             </svg>
           </div>
-          <span class="nav-link-text ms-1">Tables</span>
+          <span class="nav-link-text ms-1">option one</span>
         </a>
       </li>
       <li class="nav-item">
@@ -102,7 +102,7 @@
               </g>
             </svg>
           </div>
-          <span class="nav-link-text ms-1">Billing</span>
+          <span class="nav-link-text ms-1">Option 2</span>
         </a>
       </li>
       <li class="nav-item">
@@ -123,7 +123,7 @@
               </g>
             </svg>
           </div>
-          <span class="nav-link-text ms-1">Virtual Reality</span>
+          <span class="nav-link-text ms-1">option 3</span>
         </a>
       </li>
       <li class="nav-item">
@@ -144,7 +144,7 @@
               </g>
             </svg>
           </div>
-          <span class="nav-link-text ms-1">RTL</span>
+          <span class="nav-link-text ms-1">option 4</span>
         </a>
       </li>
       <li class="nav-item mt-3">

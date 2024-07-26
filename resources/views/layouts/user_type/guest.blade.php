@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'LOGIN')
+
 @section('guest')
     @if(\Request::is('login/forgot-password')) 
         @include('layouts.navbars.guest.nav')

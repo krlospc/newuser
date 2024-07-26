@@ -20,7 +20,7 @@
   <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
   <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
-  <link id="pagestyle" href="../assets/css/soft-ui-dashboard.css?v=1.0.3" rel="stylesheet" />
+  <link id="pagestyle" href=" {{ asset('assets/css/soft-ui-dashboard.css?v=1.0.3') }} " rel="stylesheet" />
 </head>
 
 <body class="g-sidenav-show  bg-gray-100 {{ (\Request::is('rtl') ? 'rtl' : (Request::is('virtual-reality') ? 'virtual-reality' : '')) }} ">
@@ -46,7 +46,7 @@
   <script src="{{ asset('assets/js/plugins/smooth-scrollbar.min.js') }} "></script>
   <script src="{{ asset('assets/js/plugins/fullcalendar.min.js') }} "></script>
   <script src="{{ asset('assets/js/plugins/chartjs.min.js') }} "></script>
-  @stack('rtl')
+  
   @stack('dashboard')
   <script>
     var win = navigator.platform.indexOf('Win') > -1;
